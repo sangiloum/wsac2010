@@ -1,0 +1,80 @@
+body {background: #efe;
+    font-family: georgia, times new roman, times, dotum, gulim;
+}
+
+a:link {text-decoration:none;color:#900;}
+a:visited {text-decoration:none;color:#900;}
+em {color:#f00;text-decoration:underline;}
+p,ul,ol {width:80%; margin:auto; }
+p {margin-top:.5em;margin-bottom:.5em;}
+/*h1 {display:block;margin-left:auto;margin-right:auto;margin-bottom:20px;width:800px;border-style: solid;border-color: #393;border:0 1 0 0 ; text-align:left; font-size:200%;font-variant: small-caps;background-color:#fff;background-image:url(asarc-main.gif); background-position:top right;background-repeat:no-repeat; padding-left:30px;}*/
+h1 {display:block;margin-left:auto;margin-right:auto;margin-bottom:20px;width:800px;border-style: solid;border-color: #393;border:0 1 0 0 ; text-align:left; font-size:200%;font-variant: small-caps;background-color:#fff; padding-left:30px;}
+h1 a  {display:block;margin:0;padding:0;}
+h2 {padding-top: 1em;padding-bottom: 1em;text-align:center;font-size:110%;
+color:#440;}
+ul.people li {font-size:small;color:#333;}
+ul.people li strong { font-size: large; color:#220;font-style:italic; font-weight:bold; }
+ul.people h3 {font-weight:normal;font-size:small;}
+ul.people li {display:block; padding-right: 1em;}
+ul.people li:hover {background:#aaa;}
+ul.people li span {display:block;font-style:italic;font-size:large; margin-left:2em;}
+
+table {padding-left:3em;width:20em;border-right: 3px solid #840;}
+
+address {font-size:70%;float:right;text-align:right;}
+hr {border-style: solid;}
+
+
+#title {
+	height: 26px;
+	color: #5A698B;
+	font: bold 14px/18px "Lucida Grande", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	padding-top: 5px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+    text-align: center
+}
+form {width:800px;padding:15px 15px 5px 5px;border: 3px solid #840;margin:auto;margin-top:5px;margin-bottom:5px;}
+form p {margin-bottom:2ex;margin-bottom:2ex;
+	font-family:  "Lucida Grande", "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+form div.row { margin:auto;}
+form div.row label {
+	text-align: right;
+	width: 20%;
+	margin: 0;
+	float: left;
+	margin-right: 2px;
+    margin-top:4px;
+	font: 11px/14px "Lucida Grande", "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+form div.row span label {
+	text-align: left;
+	float: none;
+	margin-right: 2px;
+    margin-top:4px;
+	font: 11px/14px "Lucida Grande", "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+form div.row span {
+	display: block;
+	margin: 0;
+}
+
+div.row {clear:both;}
+
+div.row span textarea {	border: 1px solid #8595B2;
+	background-color: #fff;
+	font: 11px/14px "Lucida Grande", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin: 4px 0 5px 8px;
+}
+input {
+	background-color: #fff;
+	font: 11px/14px "Lucida Grande", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin: 4px 0 5px 8px;
+	padding: 1px;
+	border: 1px solid #8595B2;
+}
+div.btns { text-align:center;}
+div.btns input {margin:0 0 0 0 ;text-align:center;}
+
+span#gmail:after { content: "@gmail.com";}
