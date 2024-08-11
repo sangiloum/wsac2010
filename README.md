@@ -1,1 +1,1 @@
-# wsac2010.github.io
+# wsac2010.dimag.kr
